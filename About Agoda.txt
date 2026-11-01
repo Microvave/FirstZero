@@ -1,0 +1,67 @@
+About Agoda
+
+At Agoda, we bridge the world through travel. Our story began in 2005, when two lifelong friends and entrepreneurs, driven by their passion for travel, launched Agoda to make it easier for everyone to explore the world.
+
+Today, we are part of Booking Holdings [NASDAQ: BKNG], with a diverse team of over 7,000 people from 90 countries, working together in offices around the globe. Every day, we connect people to destinations and experiences, with our great deals across our millions of hotels and holiday properties, flights, and experiences worldwide.
+
+No two days are the same at Agoda. Data and technology are at the heart of our culture, fueling our curiosity and innovation. If you're ready to begin your best journey and help build travel for the world, join us.
+
+Get to know our team
+
+The Developer Efficiency team is part of the DevOps group and helps Agoda's engineers work more effectively through automation, developer tooling, and practical applications of AI. Our core product is an AI-powered code review assistant that integrates with GitLab to provide automated review feedback, suggestions, and support for efficient software delivery.
+
+As a Software Developer on the team, you will contribute to backend services, APIs, webhooks, integrations, and AI-powered features. You will work with experienced engineers to turn ideas into reliable tools, test and improve AI-assisted workflows, and use feedback and basic product metrics to make our developer experience better. This is a hands-on role for someone who is curious about AI and enjoys learning by building.
+
+In this role, you'll get to
+
+Build and improve software that helps Agoda engineers review code, automate repetitive work, and deliver changes more efficiently.
+
+Develop backend services, APIs, webhook integrations, and automation using a modern programming language such as Go or Python.
+
+Integrate AI/LLM capabilities into developer tools, for example generating code-review suggestions, summarizing changes, or helping engineers find useful information.
+
+Work with prompts, structured inputs and outputs, basic guardrails, and evaluation examples to make AI features useful and dependable.
+
+Write unit and integration tests, participate in code reviews, and help troubleshoot issues across development and CI/CD environments.
+
+Use GitLab APIs, webhooks, and related developer-tool integrations to connect our products with the software-development workflow.
+
+Monitor feedback, usage signals, and simple evaluation results to identify improvements and iterate on features.
+
+Collaborate with teammates and internal users to understand problems, explain solutions, and continuously improve the developer experience.
+
+Learn and apply DevOps practices such as containers, CI/CD, observability, and safe deployment with guidance from the team.
+
+What You'll Need to Succeed
+
+Fresh graduates and candidates with up to two years of experience are welcome to apply.
+
+Basic software-development skills in a modern programming language, preferably Go or Python.
+
+Interest in artificial intelligence and curiosity about how AI/LLM capabilities can improve software development.
+
+Basic understanding of APIs, Git, HTTP, and working with data in common formats such as JSON.
+
+Willingness to learn about prompts, AI evaluations, responsible AI practices, and integrating LLMs into applications.
+
+Basic knowledge of the development ecosystem, such as Bash, Git, Docker, testing, and CI/CD concepts.
+
+A practical, collaborative mindset and enthusiasm for automating repetitive work and improving engineering workflows.
+
+Good communication skills and the ability to ask questions, learn from feedback, and explain technical ideas clearly.
+
+It's Great if you have
+
+Built a small project using an LLM API, AI SDK, chatbot framework, or other AI-assisted development tool.
+
+Experience with prompt engineering, retrieval-augmented generation (RAG), tool calling, or evaluating AI-generated output.
+
+Experience using GitLab, GitHub, or another source-control platform and its APIs or webhooks.
+
+Experience creating CI/CD pipelines, configuration as code, or automation scripts.
+
+Exposure to Docker, Kubernetes, cloud services, monitoring, or configuration-management tools such as Terraform or Ansible.
+
+Experience with web services, databases, or front-end development for internal tools.
+
+Open-source contributions, coding projects, hackathons, or other evidence of learning by building.
