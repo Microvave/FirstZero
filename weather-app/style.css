@@ -1,0 +1,23 @@
+section {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  display: flex;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f5f5f5;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+button {
+  border: none;
+  background-color: #0b7a8a;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+}

@@ -26,3 +26,9 @@ showBtn.addEventListener("click", async () => {
 
 });
 
+
+console.log(100 > 100);
+console.log(100 >= 100);
+console.log([5, 8, 12].find(n => n > 6));
+console.log([5, 8, 12].filter(n => n > 6));
+console.log([5, 8, 12].map(n => n > 6));
