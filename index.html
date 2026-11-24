@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FirstZero - My Projects</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: sans-serif;
+        background-color: #f5f5f5;
+        color: #333;
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 32px 16px;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 8px;
+        color: #222;
+      }
+
+      .subtitle {
+        text-align: center;
+        color: #777;
+        margin-bottom: 32px;
+      }
+
+      .projects {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+      }
+
+      .card {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 24px;
+        text-decoration: none;
+        color: #333;
+        transition: box-shadow 0.2s, transform 0.2s;
+      }
+
+      .card:hover {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        transform: translateY(-2px);
+      }
+
+      .card h2 {
+        color: #8b05a6;
+        font-size: 18px;
+        margin-bottom: 8px;
+      }
+
+      .card p {
+        font-size: 14px;
+        color: #666;
+      }
+
+      @media (max-width: 500px) {
+        .projects {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>FirstZero</h1>
+    <p class="subtitle">JavaScript Practice Projects</p>
+
+    <div class="projects">
+      <a class="card" href="todo-app/">
+        <h2>Todo App</h2>
+        <p>แอพจัดการ to-do list</p>
+      </a>
+      <a class="card" href="weather-app/">
+        <h2>Weather App</h2>
+        <p>แอพเช็คสภาพอากาศ</p>
+      </a>
+      <a class="card" href="dom-practice/">
+        <h2>DOM Practice</h2>
+        <p>ฝึก DOM Manipulation</p>
+      </a>
+      <a class="card" href="js-practice/">
+        <h2>JS Practice</h2>
+        <p>ฝึก JavaScript พื้นฐาน</p>
+      </a>
+      <a class="card" href="async-practice/">
+        <h2>Async Practice</h2>
+        <p>ฝึก Async/Await &amp; Fetch API</p>
+      </a>
+    </div>
+  </body>
+</html>
