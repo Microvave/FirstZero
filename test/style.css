@@ -5,11 +5,10 @@ section {
   border-radius: 8px;
 }
 
-li {
+.cart-item {
   
   padding: 8px 16px;
   border-radius: 20px;
-  cursor: pointer;
   justify-content: space-between;
   margin-bottom: 20px;
   display: flex;

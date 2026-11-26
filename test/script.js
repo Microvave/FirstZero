@@ -9,9 +9,9 @@ function updateCount() {
     let price = 0;
 
     for (const item of taskList.children) {
-        if (item.classList.contains("done") === false) {
+        //if (item.classList.contains("done") === false) {
             price += Number(item.dataset.price);
-        }
+        //}
     }
 
     countText.textContent = `ยอดรวม ${price} บาท`;
@@ -34,12 +34,8 @@ addBtn.addEventListener("click", () => {
     const li = document.createElement("li");
     li.textContent = `${text} - ${priceValue} บาท`;
     li.dataset.price = priceValue;
-
-    li.addEventListener("click", () => {
-        li.classList.toggle("done");
-        updateCount();
-    });
-
+    li.classList.add("cart-item");
+    
     const deleteBtn = document.createElement("button");
     deleteBtn.textContent = "ลบ"
 
@@ -50,6 +46,7 @@ addBtn.addEventListener("click", () => {
 
     li.appendChild(deleteBtn);
     taskList.appendChild(li);
+    
     taskInput.value = "";
     taskNumber.value = "";
     updateCount();
