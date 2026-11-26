@@ -3,6 +3,7 @@ const taskNumber = document.querySelector("#price");
 const addBtn = document.querySelector("#add-btn");
 const taskList = document.querySelector("#task-list");
 const countText = document.querySelector("#count");
+const discountText = document.querySelector("#discount");
 
 function updateCount() {
     let price = 0;
@@ -14,6 +15,12 @@ function updateCount() {
     }
 
     countText.textContent = `ยอดรวม ${price} บาท`;
+    if (price < 500) {
+        const remaining = 500 - price;
+        discountText.textContent = `ซื้อเพิ่มอีก ${remaining} บาท เพื่อรับส่วนลด`;
+    } else {
+        discountText.textContent = "ได้รับส่วนลดแล้ว";
+    }
 }
 
 
